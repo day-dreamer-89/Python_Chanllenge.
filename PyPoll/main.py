@@ -1,5 +1,3 @@
-# Python_Chanllenge.
-PyPoll
 import csv
 
 def calculate_election_results(csv_file):
@@ -36,16 +34,7 @@ def calculate_election_results(csv_file):
         print("-------------------------")
         print(f"Winner: {winner}")
         print("-------------------------")
+
+# Example usage
 csv_file_path = 'Resources/election_data.csv'
 calculate_election_results(csv_file_path)
-
-Election Results
--------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
